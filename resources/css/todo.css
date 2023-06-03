@@ -1,0 +1,128 @@
+html{
+    font-size: 1vw;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.top{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.top>span{
+    margin-left: 20px;
+    color: white;
+}
+
+/* ********* top ********** */
+
+.content{
+    min-height: 90vh;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.main{
+    width: 50vw;
+    height: 30vw;
+    margin: 10px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border-radius: 10px;
+}
+
+.items{
+    width: 50vw;
+    min-height: 10vw;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.item{
+    padding: 1rem;
+    width: 10rem;
+    margin:3px;
+    
+}
+
+.item>div{
+    width: 8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mic{
+    font-size: 4rem;
+    color: lightblue;
+    cursor: pointer;
+}
+
+.mic:hover{
+    color: yellow;
+}
+
+.icon-trash:hover{
+    color:yellow;
+}
+
+.pop__inp-todo{
+    position: absolute;
+    width: 30vw;
+    height: 20vw;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pop__inp-todo>div{
+    width: 100%;
+}
+
+/* ********* content ********** */
+
+.footer{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.footer>span{
+    margin-left: 20px;
+    color: white;
+}
+
+@media(width <= 1200px) {
+
+    html{
+        font-size: 15px;
+    }
+
+    .main{
+        width: 80vw;
+        height: 60vh;
+    }
+
+    .items{
+        width: 80vw;
+        min-height: 20vw;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .item{
+        width: 25vw;
+    }
+
+    .pop__inp-todo{
+        width: 80vw;
+        height: 80vh;
+    }
+}

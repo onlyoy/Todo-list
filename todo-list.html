@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resources/icon/css/all.css">
+    <link rel="stylesheet" href="./resources/css/reset.css">
+    <link rel="stylesheet" href="./resources/css/common.css">
+    <link rel="stylesheet" href="./resources/css/component.css">
+    <link rel="stylesheet" href="./resources/css/todo.css">
+    <script src="./resources/js/common.js"></script>
+    <script defer src="./resources/js/todo.js"></script>
+    <script defer src="./resources/js/bored-api.js"></script>
+    <script defer src="./resources/js/speech.js"></script>
+    <script defer src="./resources/js/unsplash-api.js"></script>
+    <script defer src="./resources/js/weather-api.js"></script>
+</head>
+<body>
+
+    <div class="top" >
+        <span id="weatherInfo">30℃ Seoul</span>
+    </div>
+    <div class="content">
+        <div class="main col-evenly">
+            <span id="todoRecommand">오늘 이런 일을 하는 것은 어때요?</span>
+            <button class="btn-lightcoral" id="btnRecommand">추천 받기</button>
+            <button class="btn-lightblue" id="btnInpTodo">ADD TODO</button>
+            <i class="fa-solid fa-microphone-lines mic" id="mic"></i>
+        </div>
+        <ul class="items row-evenly" id="todoItems">
+           
+        </ul>
+    </div>
+    <div class="footer">
+        <span id="placeInfo">my favorite place</span>
+    </div>
+
+    <div class="pop__inp-todo col-evenly center" id="popInpTodo" style="display:none">
+        <input type="hidden" id="todoId">
+        <div class="row-around">
+            <span>제목</span>
+            <input type="text" id="todoTitle" required>
+        </div>
+        <div class="row-around">
+            <span>시작시간</span>
+            <input type="datetime-local" id="todoStartedAt">
+        </div>
+        <div class="row-around">
+            <span>종료시간</span>
+            <input type="datetime-local" id="todoEndAt">
+        </div>
+        <div class="row-around">
+            <span>내용</span>
+            <textarea style="resize:none" id="todoContent"></textarea>
+        </div>
+        <div class="row-around">
+            <button class="btn-red" id="btnModifyTodo">수정하기</button>
+            <button class="btn-red" id="btnAddTodo">등록하기</button>
+            <button class="btn-lightblue" id="btnPopInpTodoClose">닫기</button>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+
+
+
+</body>
+</html>
