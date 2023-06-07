@@ -9,4 +9,4 @@
 해야할일 작성 시 $\textcolor{red}{\textsf{ localstorage}}$에 저장하여 사용자가 관리할 수 있도록 구현하였습니다.
 
 해당 사이트를 구현하면서 새로운 api들을 알게되었고, <br/>
-처음으로 $\textcolor{blue}{\textsf{ Docker,aws}}$ 를 사용하여 배포까지 하게되었다는 점에서 의미컸던 프로젝트 였습니다
+처음으로 $\textcolor{blue}{\textsf{ Docker,aws}}$ 를 사용하여 배포까지 하게되었다는 점에서 의미가 컸던 프로젝트 였습니다
