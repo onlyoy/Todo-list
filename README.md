@@ -1,6 +1,4 @@
 # Project_Todo-list
-내가 해야할 일들을 저장해보자
-
 각종 web api를 사용하여 구현한 Todo-list 웹 페이지입니다
 
 날씨 정보를 받아오는 openweathermap api,
