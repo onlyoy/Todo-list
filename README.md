@@ -1,5 +1,5 @@
 # Project_Todo-list
-**각종 web api를 사용하여 구현한 Todo-list 웹 페이지입니다**
+각종 web api를 사용하여 구현한 Todo-list 웹 페이지입니다
 
 
 <h3>📚 Summary 📚</h3>
