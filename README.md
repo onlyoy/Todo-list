@@ -3,6 +3,7 @@
 
 
 <h3>📚 Summary 📚</h3>
+
 날씨 정보를 받아오는 $\textcolor{red}{\textsf{openweathermap api}}$,<br/>
 자동으로 배경을 받아오는 $\textcolor{red}{\textsf{unsplash api}}$,<br/>
 랜덤으로 할 일을 알려주는 $\textcolor{red}{\textsf{ Bored api}}$를 사용하였고<br/>
