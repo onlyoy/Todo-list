@@ -1,7 +1,7 @@
 # Project_Todo-list
-각종 web api를 사용하여 구현한 Todo-list 웹 페이지입니다
+**각종 web api를 사용하여 구현한 Todo-list 웹 페이지입니다**
 
-
+<br/>
 <h3>📚 Summary 📚</h3>
 
 날씨 정보를 받아오는 $\textcolor{red}{\textsf{openweathermap api}}$,<br/>
