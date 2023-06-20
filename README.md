@@ -24,7 +24,6 @@
 <br/>
 <h3>📚 Skill set 📚</h3>
 <ul>
-   <li>FrontEnd : </li>
-   <li>BackEnd : SpringFramework, ApacheTomcat, MySQL</li>
-   <li>Deployment : </li>
+   <li>FrontEnd : VS Code</li>
+   <li>Deployment : Docker, AWS</li>
 </ul>
