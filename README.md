@@ -18,7 +18,7 @@
    <li>해야할 일 추가/삭제</li>
    <li>날씨 확인</li>
    <li>랜덤으로 할 일 지정</li>
-   <li>TTS</li>
+   <li>Speech to text(마이크를 통해 말한 내용을 텍스트로 변환)</li>
 </ul>
 
 <br/>
